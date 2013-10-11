@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scan Barcode"
+        android:id="@+id/scan_button"
+        android:layout_marginTop="10dp"
+        android:clickable="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inventory Activate!"
+        android:id="@+id/activate"
+        android:clickable="true"
+        android:layout_below="@+id/radioButton4"
+        android:layout_alignLeft="@+id/radioButton4"
+        android:layout_marginTop="22dp"
+        style="@style/AppBaseTheme" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Move Equipment"
+        android:id="@+id/radioButton"
+        android:layout_marginTop="25dp"
+        android:checked="false"
+        android:layout_below="@+id/scan_button"
+        android:layout_alignLeft="@+id/radioButton4" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Store Equipment Bussman Storage"
+        android:id="@+id/radioButton2"
+        android:checked="false"
+        android:layout_below="@+id/radioButton3"
+        android:layout_alignLeft="@+id/scan_button" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Store Equipment Bussman Tech Lab"
+        android:id="@+id/radioButton3"
+        android:checked="false"
+        android:layout_below="@+id/radioButton"
+        android:layout_alignLeft="@+id/scan_button" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Store Equipment Petaluma 635A"
+        android:id="@+id/radioButton4"
+        android:checked="false"
+        android:layout_below="@+id/radioButton2"
+        android:layout_alignLeft="@+id/radioButton2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scan_content"
+        android:layout_above="@+id/radioButton"
+        android:layout_toRightOf="@+id/scan_button"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>

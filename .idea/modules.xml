@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FASTAndroid/FASTAndroid.iml" filepath="$PROJECT_DIR$/FASTAndroid/FASTAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FASTAndroidProject.iml" filepath="$PROJECT_DIR$/FASTAndroidProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZXing/ZXing.iml" filepath="$PROJECT_DIR$/ZXing/ZXing.iml" />
+      <module fileurl="file://$USER_HOME$/Android Files/unboundid-ldapsdk-2.3.4-se/unboundid-ldapsdk-2.3.4-se.iml" filepath="$USER_HOME$/Android Files/unboundid-ldapsdk-2.3.4-se/unboundid-ldapsdk-2.3.4-se.iml" />
+    </modules>
+  </component>
+</project>
+
